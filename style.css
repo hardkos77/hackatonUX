@@ -1,0 +1,220 @@
+.container{
+    max-width: 1060px;
+}
+h1, h2, h3, h4{
+    font-family: 'Alata', sans-serif;
+}
+a, p{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image: url(img/background.jpg);
+    padding: 0px 0px 170px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+header::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: -25px;
+    transform: rotate(45deg);
+    left: calc(50% - 25px);
+}
+header nav{
+    background-color: #109648;
+}
+header nav img{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+header article a{
+    background-color: #F1D00B;
+    padding: 8px 40px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px rgba(1, 1, 0, 0.738);
+}
+main #concept img{
+    width: 50%;
+    margin-right: 5%;
+}
+#concept{
+    display: flex;
+    align-items: center;
+    margin: auto;   
+}
+main #avenir img{
+    width: 50%;
+    margin-right: 5%;
+    margin-right: 0%;
+}
+#avenir{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #EAF2EF;   
+}
+h2{
+    color: #109648;
+}
+#product h2{
+    text-align: center;
+}
+#product{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    background-color: white;
+    box-shadow: 1px 1px 6px rgba(1, 1, 0, 0.438);
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+#product ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#product img{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+#product p{
+    font-size: 12px;
+}
+.bouton{
+    background-color: #009FFD;
+    padding: 14px 40px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px rgba(1, 1, 0, 0.738);
+    color: white;
+}
+.h2{
+    text-align: center;
+}
+.sponsors {
+  display:flex;
+  width: 100%;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  text-align: center;
+}
+.sponsors img{
+  width: 100px;
+  height: 100px;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5%;
+  background-color: #109648;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer nav, footer .company {
+  width: 20%;
+  display:flex;
+  flex-direction: column;
+}
+
+footer .company {
+  font-family: 'Montserrat', sans-serif;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+footer .company h2 {
+  font-size: 1em;
+  width:30%;
+}
+
+footer .company .logo {
+  width:20%;
+  height:100%;
+  margin-right:5%;
+
+}
+
+footer .company p {
+  width:100%;
+}
+
+footer .company h2 {
+font-family: 'Alata', sans-serif;
+  width:80%;
+  color: white;
+}
+
+
+footer nav h3 {
+  font-size: 1.2em;
+  margin-bottom:20%;
+}
+footer nav a {
+  text-decoration: none;
+  color:inherit;
+  margin-bottom: 10%;
+  font-size: 0.9em;
+}
+
+footer .social {
+  display:flex;
+  justify-content:space-between;
+  width: 80%;
+}
+
+footer .copyright {
+  width:100%;
+  text-align: center;
+  font-size:0.8em;
+  margin: 5% 0 0 0;
+}
+
+footer .cta {
+  background-color: #009FFD;
+  text-align: center;
+  width:75%;
+  padding: 5%;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px rgba(1, 1, 0, 0.738);
+  margin-top: 15%;
+  font-family: 'Montserrat', sans-serif;
+}
